@@ -1,6 +1,4 @@
-const refs = {
-  btnSwitch: document.querySelector('#themeToggle'),
-  form: document.querySelector('#task-form'),
+export const refs = {
+  headerForm: document.querySelector('.header-form'),
+  tasksList: document.querySelector('.tasks-list'),
 };
-
-export { refs };
