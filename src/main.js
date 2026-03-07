@@ -1,3 +1,5 @@
+import { refs } from './js/refs.js';
+import { themeSwitcher } from './js/theme-switcher.js';
 /*
   Створи список справ.
   На сторінці є два інпути які має вводиться назва і текст задачі.
@@ -14,3 +16,7 @@
       <p>Текст</p>
   </li>
 */
+
+refs.btnSwitch.addEventListener('click', themeSwitcher);
+
+console.log(refs.inputTaskName);
